@@ -6,27 +6,24 @@
         xmlns:local="clr-namespace:EscapeMoscati3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#FF7AB4E0">
+    <Grid Background="#FF09350B">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="163*"/>
+            <ColumnDefinition Width="17*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="72*"/>
             <RowDefinition Height="145*"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="Domanda" HorizontalAlignment="Left" Height="85" Margin="40,44,0,0" TextWrapping="Wrap" Text="Domanda" VerticalAlignment="Top" Width="515" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="Domanda" HorizontalAlignment="Left" Height="145" Margin="40,44,0,0" TextWrapping="Wrap" Text="Domanda" VerticalAlignment="Top" Width="515" TextChanged="TextBox_TextChanged" Grid.ColumnSpan="2" Background="#FF09350B" Foreground="White" FontSize="18" FontFamily="Copperplate Gothic Light" Grid.RowSpan="2"/>
 
-        <Label x:Name="NDomanda" Content="Domanda 2/24" HorizontalAlignment="Left" Height="25" Margin="510,165,0,0" VerticalAlignment="Top" Width="90" Grid.Row="1" Grid.Column="1"/>
-        <TextBox x:Name="Suggerimento" HorizontalAlignment="Left" Height="257" Margin="510,44,0,0" TextWrapping="Wrap" Text="Suggerimenti" VerticalAlignment="Top" Width="165" Grid.RowSpan="2" Grid.Column="1" TextChanged="Suggerimento_TextChanged"/>
-        <Button x:Name="SuggBott" Content="Suggerimento" HorizontalAlignment="Left" Height="28" Margin="397,159,0,0" VerticalAlignment="Top" Width="78" Grid.Row="1" Grid.Column="1" Click="SuggBott_Click"/>
-        <Button x:Name="DSuc" Content="Domanda Successiva" HorizontalAlignment="Left" Margin="160,159,0,0" VerticalAlignment="Top" Width="135" Height="28" Grid.Row="1" Grid.Column="1" Click="DSuc_Click"/>
-        <Button x:Name="DPrec" Content="Domanda precedente" HorizontalAlignment="Left" Height="28" Margin="40,159,0,0" VerticalAlignment="Top" Width="155" Grid.Row="1" Grid.ColumnSpan="2" Click="DPrec_Click"/>
+        <Label x:Name="NDomanda" Content="DOMANDA 2/24" HorizontalAlignment="Left" Height="25" Margin="524,161,0,0" VerticalAlignment="Top" Width="114" Grid.Row="1" Grid.Column="1" Background="White" Foreground="#FF09350B" FontSize="11" FontFamily="Copperplate Gothic Light"/>
+        <TextBox x:Name="Suggerimento" HorizontalAlignment="Left" Height="244" Margin="502,46,0,0" TextWrapping="Wrap" Text="Suggerimenti" VerticalAlignment="Top" Width="164" Grid.RowSpan="2" Grid.Column="1" TextChanged="Suggerimento_TextChanged" FontSize="14" FontFamily="Copperplate Gothic Light" Foreground="White" BorderBrush="#FF09350B" Grid.ColumnSpan="2" Background="#FF0E3810"/>
+        <Button x:Name="SuggBott" Content="SUGGERIMENTO" HorizontalAlignment="Left" Height="30" Margin="355,159,0,0" VerticalAlignment="Top" Width="120" Grid.Row="1" Grid.Column="1" Click="SuggBott_Click" Background="White" FontFamily="Copperplate Gothic Light" Foreground="#FF09350B"/>
+        <Button x:Name="DSuc" Content="DOMANDA SUCCESSIVA" HorizontalAlignment="Left" Margin="160,159,0,0" VerticalAlignment="Top" Width="169" Height="28" Grid.Row="1" Grid.Column="1" Click="DSuc_Click" Foreground="#FF09350B" FontFamily="Copperplate Gothic Light" Background="White"/>
+        <Button x:Name="DPrec" Content="Domanda precedente" HorizontalAlignment="Left" Height="28" Margin="40,159,0,0" VerticalAlignment="Top" Width="166" Grid.Row="1" Grid.ColumnSpan="2" Click="DPrec_Click" Background="#FFFCFFFC" Foreground="#FF09350B" FontFamily="Copperplate Gothic Light" FontSize="14"/>
         <CheckBox Content="CheckBox"/>
-        <Button Content="Button" Margin="228,19,430,244" Grid.Row="1" Grid.Column="1" Click="Button_Click"/>
-        <Button Content="Button" Margin="52,24,605,240" Grid.Row="1" Grid.Column="1" Click="Button_Click_1"/>
-        <Button Content="Button" Margin="142,23,515,240" Grid.Row="1" RenderTransformOrigin="2.778,0.602" Grid.Column="1" Click="Button_Click_2"/>
-        <Button Content="Button" Margin="320,24,338,239" Grid.Row="1" Grid.Column="1" Click="Button_Click_3"/>
-        <Button Content="Button" Margin="413,24,245,239" Grid.Row="1" Grid.Column="1" Click="Button_Click_4"/>
+        <TextBox Grid.ColumnSpan="2" Margin="41,62,175,167" TextChanged="TextBox_TextChanged" Background="#FF09350B" Foreground="White" FontSize="18" FontFamily="Copperplate Gothic Light" Grid.Row="1">Risposta</TextBox>
     </Grid>
 </Window>
