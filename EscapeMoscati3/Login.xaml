@@ -1,0 +1,27 @@
+﻿<Window x:Class="EscapeMoscati3.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EscapeMoscati3"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid Margin="1,-3,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="170*"/>
+            <RowDefinition Height="267*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image2.png"/>
+        </Grid.Background>
+        <Image Margin="-4,166,692,1" Source="/Image1.png" Stretch="Fill" RenderTransformOrigin="5.169,-1.145" Grid.Row="1"/>
+        <TextBox Margin="0,158,0,0" TextWrapping="Wrap" Text="ACCEDI" VerticalAlignment="Top" Width="93" Height="29" FontWeight="Bold" FontSize="18" FontFamily="Copperplate Gothic Bold" RenderTransformOrigin="0.955,0.803" BorderBrush="#FF1C4038" Background="#FF759085" Foreground="White" HorizontalAlignment="Center" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="303,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Height="26" FontSize="14"/>
+        <Label Content="Nome utente o email" HorizontalAlignment="Left" Margin="303,119,0,0" VerticalAlignment="Top" Foreground="#FFFDFDFD"/>
+        <TextBox HorizontalAlignment="Left" Margin="302,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" Height="28" Grid.Row="1"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="304,9,0,0" VerticalAlignment="Top" Foreground="#FFFDFDFD" Grid.Row="1"/>
+        <Label Content="Numero Partecipanti" HorizontalAlignment="Left" Margin="302,71,0,0" VerticalAlignment="Top" Foreground="#FFFDFDFD" Grid.Row="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="305,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="27" RenderTransformOrigin="0.441,0.39" Grid.Row="1"/>
+
+    </Grid>
+</Window>
